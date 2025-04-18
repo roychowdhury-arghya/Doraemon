@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: #ffffff;
+  background: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@ body {
 .head {
   width: 300px;
   height: 300px;
-  background: #1E90FF;
+  background: rgb(59, 157, 255);
   border-radius: 50%;
   border: 5px solid black;
   position: relative;
@@ -32,24 +32,25 @@ body {
   background: white;
   border-radius: 50%;
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 25px;
+  left: 17px;
 }
 
 .eye {
   position: absolute;
-  width: 50px;
-  height: 30px;
+  width: 45px;
+  height: 50px;
   border: 3px solid black;
-  border-top: none;
+  /* border-top: none;
   border-left: none;
-  border-right: none;
+  border-right: none; */
   top: 60px;
   background: transparent;
 }
 
 .eye.left {
-  left: 75px;
+  left: 80px;
+  border-radius: 50%;
 }
 
 .eye.right {
