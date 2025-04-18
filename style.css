@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.doraemon {
+  position: relative;
+  width: 300px;
+  height: 330px;
+}
+
+.head {
+  width: 300px;
+  height: 300px;
+  background: #1E90FF;
+  border-radius: 50%;
+  border: 5px solid black;
+  position: relative;
+}
+
+.face {
+  width: 260px;
+  height: 260px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.eye {
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  border: 3px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  top: 60px;
+  background: transparent;
+}
+
+.eye.left {
+  left: 75px;
+}
+
+.eye.right {
+  right: 75px;
+}
+
+.nose {
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  background: red;
+  border: 2px solid black;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.nose-line {
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 40px;
+  background: black;
+}
+
+.mouth {
+  position: absolute;
+  width: 160px;
+  height: 100px;
+  top: 160px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 4px solid black;
+  border-radius: 0 0 100px 100px;
+}
+
+.whisker {
+  position: absolute;
+  height: 2px;
+  background: black;
+  width: 70px;
+}
+
+/* Left whiskers */
+.whisker.l1 {
+  top: 120px;
+  left: -10px;
+  transform: rotate(10deg);
+}
+
+.whisker.l2 {
+  top: 135px;
+  left: -15px;
+}
+
+.whisker.l3 {
+  top: 150px;
+  left: -10px;
+  transform: rotate(-10deg);
+}
+
+/* Right whiskers */
+.whisker.r1 {
+  top: 120px;
+  right: -10px;
+  transform: rotate(-10deg);
+}
+
+.whisker.r2 {
+  top: 135px;
+  right: -15px;
+}
+
+.whisker.r3 {
+  top: 150px;
+  right: -10px;
+  transform: rotate(10deg);
+}
+
+.collar {
+  position: absolute;
+  top: 295px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  height: 20px;
+  background: red;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.bell {
+  position: absolute;
+  top: 305px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  background: gold;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.bell-line {
+  position: absolute;
+  top: 318px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  background: black;
+  border-radius: 50%;
+}
