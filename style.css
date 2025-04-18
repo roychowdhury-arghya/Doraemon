@@ -33,7 +33,7 @@ body {
   border-radius: 50%;
   position: absolute;
   top: 25px;
-  left: 17px;
+  left: 15px;
 }
 
 .eye{
@@ -108,40 +108,11 @@ body {
   width: 70px;
 }
 
-/* Left mustache */
 #mustache-a1{
-  top: 120px;
-  left: -10px;
-  transform: rotate(10deg);
+    top: 120px;
 }
-
-#mustache-a2{
-  top: 135px;
-  left: -15px;
-}
-
-#mustache-a3{
-  top: 150px;
-  left: -10px;
-  transform: rotate(-10deg);
-}
-
-/* Right mustache */
 #mustache-b1{
-  top: 120px;
-  right: -10px;
-  transform: rotate(-10deg);
-}
-
-#mustache-b2{
-  top: 135px;
-  right: -15px;
-}
-
-#mustache-b3{
-  top: 150px;
-  right: -10px;
-  transform: rotate(10deg);
+    top: 120px;
 }
 
 .collar {
